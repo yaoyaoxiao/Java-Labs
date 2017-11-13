@@ -1,0 +1,441 @@
+Last login: Tur Nov  9 08:55:12 on ttys000
+Xiaofangs-MacBook-Air:Lab2 xiaofangyu$ javac TicTacToe.java
+
+
+
+==============================Alternate between Players============================
+
+Xiaofangs-MacBook-Air:Lab2 xiaofangyu$ java TicTacToe
+Welcome to tic-tac-toe
+Enter coordinates for your move following the X and O prompts
+
+	  1 2 3
+
+	A  | | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+X: A1
+
+	  1 2 3
+
+	A X| | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+O: B4
+
+invalid coordinates: Out of bounds OR position occupied. Enter a different one.
+O: B2
+
+	  1 2 3
+
+	A X| | 
+	  -----
+	B  |O| 
+	  -----
+	C  | | 
+
+X: 
+
+=================================================================================
+
+
+
+
+====================Validate Basic Moves (legal moves only)======================
+
+Xiaofangs-MacBook-Air:Lab2 xiaofangyu$ java TicTacToe
+Welcome to tic-tac-toe
+Enter coordinates for your move following the X and O prompts
+
+	  1 2 3
+
+	A  | | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+X: A1
+
+	  1 2 3
+
+	A X| | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+O: B2
+
+	  1 2 3
+
+	A X| | 
+	  -----
+	B  |O| 
+	  -----
+	C  | | 
+
+X: A1
+
+invalid coordinates: Out of bounds OR position occupied. Enter a different one.
+X: B2
+
+invalid coordinates: Out of bounds OR position occupied. Enter a different one.
+X: B4
+
+invalid coordinates: Out of bounds OR position occupied. Enter a different one.
+X: D1
+
+invalid coordinates: Out of bounds OR position occupied. Enter a different one.
+X: A2B%@$
+
+	  1 2 3
+
+	A X|X| 
+	  -----
+	B  |O| 
+	  -----
+	C  | | 
+
+O: 
+
+=================================================================================
+
+
+
+
+========================Declare the Winner - Horizontal win======================
+
+Xiaofangs-MacBook-Air:Lab2 xiaofangyu$ java TicTacToe
+Welcome to tic-tac-toe
+Enter coordinates for your move following the X and O prompts
+
+	  1 2 3
+
+	A  | | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+X: A1
+
+	  1 2 3
+
+	A X| | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+O: B2
+
+	  1 2 3
+
+	A X| | 
+	  -----
+	B  |O| 
+	  -----
+	C  | | 
+
+X: A3
+
+	  1 2 3
+
+	A X| |X
+	  -----
+	B  |O| 
+	  -----
+	C  | | 
+
+O: C1
+
+	  1 2 3
+
+	A X| |X
+	  -----
+	B  |O| 
+	  -----
+	C O| | 
+
+X: A2
+
+	  1 2 3
+
+	A X|X|X
+	  -----
+	B  |O| 
+	  -----
+	C O| | 
+
+Player X Wins!!!!
+
+=================================================================================
+
+
+
+
+=========================Declare the Winner - Vertical win=======================
+
+Xiaofangs-MacBook-Air:Lab2 xiaofangyu$ java TicTacToe
+Welcome to tic-tac-toe
+Enter coordinates for your move following the X and O prompts
+
+	  1 2 3
+
+	A  | | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+X: A1
+
+	  1 2 3
+
+	A X| | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+O: A3
+
+	  1 2 3
+
+	A X| |O
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+X: B2
+
+	  1 2 3
+
+	A X| |O
+	  -----
+	B  |X| 
+	  -----
+	C  | | 
+
+O: C3
+
+	  1 2 3
+
+	A X| |O
+	  -----
+	B  |X| 
+	  -----
+	C  | |O
+
+X: B1
+
+	  1 2 3
+
+	A X| |O
+	  -----
+	B X|X| 
+	  -----
+	C  | |O
+
+O: B3
+
+	  1 2 3
+
+	A X| |O
+	  -----
+	B X|X|O
+	  -----
+	C  | |O
+
+Player O Wins!!!!
+
+=================================================================================
+
+
+
+
+=========================Declare the Winner - Diagonal win=======================
+
+Xiaofangs-MacBook-Air:Lab2 xiaofangyu$ java TicTacToe
+Welcome to tic-tac-toe
+Enter coordinates for your move following the X and O prompts
+
+	  1 2 3
+
+	A  | | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+X: B2
+
+	  1 2 3
+
+	A  | | 
+	  -----
+	B  |X| 
+	  -----
+	C  | | 
+
+O: A3
+
+	  1 2 3
+
+	A  | |O
+	  -----
+	B  |X| 
+	  -----
+	C  | | 
+
+X: A1
+
+	  1 2 3
+
+	A X| |O
+	  -----
+	B  |X| 
+	  -----
+	C  | | 
+
+O: B3
+
+	  1 2 3
+
+	A X| |O
+	  -----
+	B  |X|O
+	  -----
+	C  | | 
+
+X: C3
+
+	  1 2 3
+
+	A X| |O
+	  -----
+	B  |X|O
+	  -----
+	C  | |X
+
+Player X Wins!!!!
+
+=================================================================================
+
+
+
+
+==========================Declare the Winner - Stalemate=========================
+
+Xiaofangs-MacBook-Air:Lab2 xiaofangyu$ java TicTacToe
+Welcome to tic-tac-toe
+Enter coordinates for your move following the X and O prompts
+
+	  1 2 3
+
+	A  | | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+X: A1
+
+	  1 2 3
+
+	A X| | 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+O: A2
+
+	  1 2 3
+
+	A X|O| 
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+X: A3
+
+	  1 2 3
+
+	A X|O|X
+	  -----
+	B  | | 
+	  -----
+	C  | | 
+
+O: B1
+
+	  1 2 3
+
+	A X|O|X
+	  -----
+	B O| | 
+	  -----
+	C  | | 
+
+X: B3
+
+	  1 2 3
+
+	A X|O|X
+	  -----
+	B O| |X
+	  -----
+	C  | | 
+
+O: B2
+
+	  1 2 3
+
+	A X|O|X
+	  -----
+	B O|O|X
+	  -----
+	C  | | 
+
+X: C1
+
+	  1 2 3
+
+	A X|O|X
+	  -----
+	B O|O|X
+	  -----
+	C X| | 
+
+O: C3
+
+	  1 2 3
+
+	A X|O|X
+	  -----
+	B O|O|X
+	  -----
+	C X| |O
+
+X: C2
+
+	  1 2 3
+
+	A X|O|X
+	  -----
+	B O|O|X
+	  -----
+	C X|X|O
+
+Stalemate
+Xiaofangs-MacBook-Air:Lab2 xiaofangyu$ 
