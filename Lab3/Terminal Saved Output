@@ -1,0 +1,113 @@
+Last login: Tue Nov 21 21:12:18 on ttys000
+Xiaofangs-MacBook-Air:~ xiaofangyu$ javac -sourcepath src /Users/xiaofangyu/ITUCourses/CSC518Web/Lab3/*.java
+Xiaofangs-MacBook-Air:~ xiaofangyu$ java -cp /Users/xiaofangyu/ITUCourses  CSC518Web.Lab3.WeeklyPayReport
+Please enter the employee's name（First Last）: 
+James Hogan
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+s
+Please enter the employee's weekly salary: 3300.00
+Do you want to reward this employee by adding 10% to their salaries? (Y/N): n
+Do you want to add another employee? (Y/N): n
+Name Class Hours Sales Rate Weekly Pay Amount
+===========================================================
+James Hogan Salaried  $3,300.00
+===========================================================
+TOTAL  $3,300.00
+Xiaofangs-MacBook-Air:~ xiaofangyu$ java -cp /Users/xiaofangyu/ITUCourses  CSC518Web.Lab3.WeeklyPayReport
+Please enter the employee's name（First Last）: 
+James Hogan
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+s
+Please enter the employee's weekly salary: 3300.00
+Do you want to reward this employee by adding 10% to their salaries? (Y/N): y
+Do you want to add another employee? (Y/N): n
+Name Class Hours Sales Rate Weekly Pay Amount
+===========================================================
+James Hogan Salaried  $3,630.00*
+===========================================================
+TOTAL  $3,630.00
+*A 10% bonus is awarded
+Xiaofangs-MacBook-Air:~ xiaofangyu$ java -cp /Users/xiaofangyu/ITUCourses  CSC518Web.Lab3.WeeklyPayReport
+Please enter the employee's name（First Last）: 
+Jennifer Waltz
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+h
+Please enter the employee's hourly salary: 15
+Please enter the number of hours this employee worked: 30
+Do you want to add another employee? (Y/N): n
+Name Class Hours Sales Rate Weekly Pay Amount
+===========================================================
+Jennifer Waltz Hourly 30 $15.00 $450.00
+===========================================================
+TOTAL  $450.00
+Xiaofangs-MacBook-Air:~ xiaofangyu$ java -cp /Users/xiaofangyu/ITUCourses  CSC518Web.Lab3.WeeklyPayReport
+Please enter the employee's name（First Last）: 
+Jennifer Waltz
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+h
+Please enter the employee's hourly salary: 15
+Please enter the number of hours this employee worked: 45
+Do you want to add another employee? (Y/N): n
+Name Class Hours Sales Rate Weekly Pay Amount
+===========================================================
+Jennifer Waltz Hourly 45 $15.00 $750.00
+===========================================================
+TOTAL  $750.00
+Xiaofangs-MacBook-Air:~ xiaofangyu$ java -cp /Users/xiaofangyu/ITUCourses  CSC518Web.Lab3.WeeklyPayReport
+Please enter the employee's name（First Last）: 
+Marry Bulter
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+c
+Please enter the weekly sales: 10000.00
+Do you want to add another employee? (Y/N): n
+Name Class Hours Sales Rate Weekly Pay Amount
+===========================================================
+Marry Bulter Commissioned  $10,000.00 $2,000.00
+===========================================================
+TOTAL  $2,000.00
+Xiaofangs-MacBook-Air:~ xiaofangyu$ java -cp /Users/xiaofangyu/ITUCourses  CSC518Web.Lab3.WeeklyPayReport
+Please enter the employee's name（First Last）: 
+James Hogan
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+s
+Please enter the employee's weekly salary: 3300
+Do you want to reward this employee by adding 10% to their salaries? (Y/N): y
+Do you want to add another employee? (Y/N): y
+Please enter the employee's name（First Last）: 
+Jennifer Waltz
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+h 
+Please enter the employee's hourly salary: 10.95
+Please enter the number of hours this employee worked: 45
+Do you want to add another employee? (Y/N): y
+Please enter the employee's name（First Last）: 
+Moly Smith
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+h
+Please enter the employee's hourly salary: 15
+Please enter the number of hours this employee worked: 32
+Do you want to add another employee? (Y/N): y
+Please enter the employee's name（First Last）: 
+Joan Han
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+s
+Please enter the employee's weekly salary: 2600
+Do you want to reward this employee by adding 10% to their salaries? (Y/N): n
+Do you want to add another employee? (Y/N): y
+Please enter the employee's name（First Last）: 
+Marry Bultler
+Please enter the employee type (Enter s for salaried, h for hourly, c for commissioned): 
+c
+Please enter the weekly sales: 10000
+Do you want to add another employee? (Y/N): n
+Name Class Hours Sales Rate Weekly Pay Amount
+===========================================================
+James Hogan Salaried  $3,630.00*
+Jennifer Waltz Hourly 45 $10.95 $547.50
+Moly Smith Hourly 32 $15.00 $480.00
+Joan Han Salaried  $2,600.00
+Marry Bultler Commissioned  $10,000.00 $2,000.00
+===========================================================
+TOTAL  $9,257.50
+*A 10% bonus is awarded
+Xiaofangs-MacBook-Air:~ xiaofangyu$ 

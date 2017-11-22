@@ -1,0 +1,47 @@
+Lab3 Weekly Employee Pay Report Instructions
+
+Due date: Nov 25, 2017
+
+Points: 10
+
+Description
+A company pays its employees on a weekly basis. The company has three types of employees:
+
+Salaried employees, who are paid a fixed weekly salary regardless of the number of hours worked;
+Hourly employees, who are paid by the hour and receive overtime pay;
+Commissioned employees whose pays are 20% of the week's sales
+Create a console-based Java application that: 
+Calculates weekly pay for an employee. The application should display text that requests the user input the name of the employee, type of employee, and the monthly salary, or hourly rate, if it’s an hourly employee, and hours worked for the week.
+For hourly employees, the rate will be doubled if it’s beyond 40 hours/week.
+The application should then print out the name of the employee and the weekly pay amount. In the printout, display the dollar symbol ($) to the left of the weekly pay amount and format the weekly pay amount to display currency.
+Implements a feature that allows the company to reward selected salaried employees by adding 10% to their salaries. Your program should display an asterisk (*) to the upper right of the weekly pay amount, and a note stating bonus added below the table, as shown below:
+Name Class Hours Sales Rate Weekly Pay Amount
+===========================================================
+James Hogan Salaried $3,300.00*
+Jennifer Waltz Hourly 45 $10.95 $547.50
+Moly Smith Hourly 32 $15.00 $480.00
+Joan Han Salaried $2,600.00
+Marry Butler Commissioned $10,000.00 $2,000.00
+===========================================================
+TOTAL $8,927.50
+*A 10% bonus is awarded
+
+Lab Submission
+Your program should follow the coding guideline
+Draw UML class diagrams showing the design
+A test plan that includes at least 5 test cases (scenarios, input, expected results, and actual results) and a brief explanation of the limitations
+· Execution of the test cases (sample output)
+Submit the design, source code, test plan, sample output to EMS
+Grading
+The total points for this lab is 10.
+
+10: A completely functional program that is neatly laid out. Coding standards are followed. All the required documents are submitted (test plan with 5+ test cases, sample output)
+9.0-9.9: A completely functional program, but the code does not meet the coding standard. All requirement documents are not submitted.
+8.0-8.9 The program works but messy and poorly designed. Some or all documents are missing 
+7.0-7.9 The program is mostly working but has some functional issues or glitches.
+6.0-6.9 The program is partially working, with only some function implemented.
+5.9 or below: Required files are not properly submitted. Or the program is mostly not working.
+
+
+
+
