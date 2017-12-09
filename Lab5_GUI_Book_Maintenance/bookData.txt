@@ -1,0 +1,3 @@
+A2|Book Two|12.00
+A3|Book Three|13.99
+A4|Book Four|20.50
